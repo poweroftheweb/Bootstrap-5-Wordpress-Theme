@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?82dcfcc9e925332861b6ddc6aed8e7c1") format("truetype"),
+url("./flaticon.woff?82dcfcc9e925332861b6ddc6aed8e7c1") format("woff"),
+url("./flaticon.woff2?82dcfcc9e925332861b6ddc6aed8e7c1") format("woff2"),
+url("./flaticon.eot?82dcfcc9e925332861b6ddc6aed8e7c1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?82dcfcc9e925332861b6ddc6aed8e7c1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.flaticon-menu:before {
+    content: "\f101";
+}
+.flaticon-close:before {
+    content: "\f103";
+}
+.flaticon-right-arrow:before {
+    content: "\f103";
+}
+.gv-icon-194:before {
+  content: "\f103";
+}
+.flaticon-arrow-pointing-to-right:before { 
+    content: "\f104"; 
+}
+.flaticon-arrow-pointing-to-left:before {
+    content: "\f105";
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: "\f107";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f103";
+}
+.flaticon-down-arrow:before {
+    content: "\f106";
+}
