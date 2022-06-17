@@ -3,7 +3,7 @@ Theme Name: Power of the Web
 Theme URI: https://poweroftheweb.net
 Author: Packy Savvenas
 Author URI: https://poweroftheweb.net
-Description: Custom 3.0 Theme
+Description: Packy Savvenas designed this theme via Photoshop/Illustrator and developed with HTML, CSS, and jQuery.
 Version: 3.0.3
 Requires at least: 5.0
 Tested up to: 6.0
@@ -351,6 +351,20 @@ transition: all 0.3s ease-out 0s;
 
 .logo-potw {
   width: 155px;
+  margin-top: 12px;
+  margin-left: 7px;
+  z-index: 9;
+  position: relative;
+}
+
+.brand-logo {
+  width: 175px !important;
+  position: relative;
+  z-index: 999999;
+}
+
+.container-fixed .logo-potw-color {
+  width: 155px;
   margin-top: 4px;
   z-index: 9;
   position: relative;
@@ -364,8 +378,7 @@ transition: all 0.3s ease-out 0s;
 
 
 .main-menu {
-  margin-left: 70px;
-  margin-top: -4px;
+  margin-top: 4px;
   display: flex;
   -webkit-transition: all 0.3s ease-out 0s;
 -moz-transition: all 0.3s ease-out 0s;
@@ -870,11 +883,7 @@ transition: all 0.3s ease-out 0s;
   display: none;
 }
 
-@media only screen and (max-width: 1400px) {
-.main-menu {
-    margin-left: 45px;
-}
-}
+
 
 @media only screen and (max-width: 900px) {
   #top-navigation .top-menu {
@@ -889,28 +898,26 @@ transition: all 0.3s ease-out 0s;
   .container-fixed {
     height: 70px;
   }
-  .logo-bks {
+  .logo-potw {
     margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 770px) {
-  .logo-bks {
+  .logo-potw {
     margin-top: 9px;
     left: -17px;
-    width: 215px;
+    width: 175px;
   }
 
-  .container-fixed .logo-bks {
-    margin-top: -4px;
-    left: -12px;
-    width: 230px;
+  .container-fixed .logo-potw {
+    width: 175px;
   }
 }
 
 #header-gradient-btn {
-  margin-left: -115px;
-  margin-top: 17px;
+  margin-bottom: -26px;
+  margin-top: 4px;
 }
 
 
@@ -920,9 +927,8 @@ transition: all 0.3s ease-out 0s;
     transition: 0.5s;
     padding: 7px 24px 7px 24px;
     background-size: 200% auto;
-    background-image: linear-gradient(to right, #003468 0%, #003468 51%, #37593F 100%);
+    background-image: linear-gradient(to right, #77B6EA 0%, #77B6EA 51%, #2B8EDE 100%);
     text-decoration: none;
-    right: 40px;
     top: -48px;
 }
 #header-gradient-btn a:hover {
@@ -2576,7 +2582,7 @@ div.active .service-box-s2 {
   width: 30px;
   height: 30px;
     background-size: 200% auto;
-    background-image: linear-gradient(to right, #003468 0%, #003468 51%, #37593F 100%);
+    background-image: linear-gradient(to right, #77B6EA 0%, #77B6EA 51%, #77B6EA 100%);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -3766,9 +3772,7 @@ div.active .service-box-s2 {
 
 #footer {
   padding: 90px 30px 30px 90px;
-  background-image: url("http://bks-partners.com/redesign/wp-content/uploads/2022/04/Footer-Background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #77B6EA !important;
 
 }
 
@@ -3824,27 +3828,22 @@ div.active .service-box-s2 {
 }
 
   /*------------------*/
-/*Sticky Header Styles */
+/*Mobile Styling */
 /*------------------------------------------------------*/
+
+@media only screen and (max-width: 1200px) {
 
 .potw-search-box {
   display: none;
 }
+
 #header-gradient-btn a {
   display: none;
 }
 
-#menu-style {
-  width: 100%;
-}
-
-.logo-bks {
+.logo-potw {
   z-index: 99999;
 }
-
-/* .return-top {
- right: 90px;
-} */
 
 }
 
@@ -3853,9 +3852,6 @@ div.active .service-box-s2 {
 
 @media only screen and (max-width: 770px) {
 
-  /*------------------*/
-/*Sticky Header Styles */
-/*------------------------------------------------------*/
 
 .container-fixed {
   height: 75px;
@@ -3869,7 +3865,7 @@ div.active .service-box-s2 {
   display: none;
 }
 
-.container-fixed .logo-bks img {
+.container-fixed .logo-potw img {
   margin-top: -38px;
 }
 
